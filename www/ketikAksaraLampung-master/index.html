@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Ketik Aksara Lampung">
+        <meta name="author" content="Meizano">
+        <meta name="theme-color" content="#f3f121" />
+        <title>Ketik Aksara Lampung</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+        <div class="container">
+                <div class="page">
+                        <h1 class="title" id="judulAplikasi">Aksara Lampung</h1>
+                        <form id="terjemahForm">
+                                <fieldset>
+                                        <div class="form-group">
+                                                <input id="kataAsal" class="form-control" placeholder="Kata/kalimat yang ditransliterasikan"
+                                                        name="kataAsal" type="text" autofocus required>
+                                                <input id="aksaraAsal" class="form-control" placeholder="Aksara yang ditransliterasikan"
+                                                        name="aksaraAsal" type="text" autocomplete="off">
+                                        </div>
+                                </fieldset>
+                        </form>
+
+
+                        <div id="hasilTerjemah" class="hasil-transliterasi">
+                        </div>
+                     
+
+                </div>
+        </div>
+        <!-- <div class="footer">
+        <p>Hak cipta Meizano Ardhi Muhammad</p>
+    </div> -->
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+        <!-- <script src="./js/jquery-1.11.3.min.js"></script> -->
+        <!-- <script src="./js/bootstrap.min.js"></script> -->
+        <!--		<script src="dispatcher/indonesia2lampung.js"></script>-->
+        <script src="./js/aksaraLampung.js"></script>
+        <script src="./js/transliterasiAksara.js"></script>
+</body>
+
+</html>
