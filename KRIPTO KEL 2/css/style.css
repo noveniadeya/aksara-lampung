@@ -31,7 +31,7 @@ body {
   list-style: none unset none;
 }
 
-/* For mobile phones: */
+
 #judulAplikasi {
   text-transform: uppercase;
   text-shadow: 0 0 5px darkred;
@@ -39,7 +39,7 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-  /* For mobile phones: */
+ 
   #judulAplikasi {
     display: none;
 
@@ -174,9 +174,9 @@ input {
 .container {
   display: flex;
   height: 100vh;
-  /* memakai seluruh tinggi yang tampil di layar */
+  
   flex-direction: column;
-  /* Agar flex-grow dapat memakai seluruh ruang tersisa */
+  
   background-color: beige;
 }
 
@@ -189,12 +189,12 @@ input {
 .page {
   background-color: rgb(251, 251, 0);
   flex-grow: 1;
-  /* Memakai seluruh ruang tersisa */
+  
 }
 
 .footer {
   flex: 0 1 content;
-  /* selalu menyediakan ruang di paling bawah */
+  
   background-color: rgb(0, 37, 139);
   color: white;
   text-align: center;

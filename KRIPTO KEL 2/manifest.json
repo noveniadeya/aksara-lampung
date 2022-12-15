@@ -1,0 +1,10 @@
+{
+  "name": "Ketik Aksara Lampung",
+  "short_name": "Aksara Lampung",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000",
+  "theme_color": "#f3f121"
+  
+}
